@@ -12,8 +12,8 @@ local themes_path = string.format("%s/.config/awesome/themes/", os.getenv("HOME"
 
 local theme = {}
 
-theme.font          = "Hack 10"
-theme.font_name     = "Hack "
+theme.font          = "SourceCodePro 10"
+theme.font_name     = "SourceCodePro "
 theme.icon_font     = "Papirus "
 
 theme.bg_normal     = "#181818"
@@ -44,7 +44,7 @@ theme.border_marked = "#91231c"
 -- prompt_[fg|bg|fg_cursor|bg_cursor|font]
 -- hotkeys_[bg|fg|border_width|border_color|shape|opacity|modifiers_fg|label_bg|label_fg|group_margin|font|description_font]
 -- Example:
---theme.taglist_bg_focus = "#ff0000"
+theme.taglist_bg_focus = "#282828"
 
 -- Generate taglist squares:
 local taglist_square_size = dpi(4)
